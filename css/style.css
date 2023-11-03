@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    
+}
+
+h2 {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section {
+    display: flex;
+    width: 600px;
+    height: 450px;
+  
+    
+}
+
+
+section img {
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .5;
+    transition: .8s ease-in;
+    align-items: flex-end;
+    
+}
+
+section img:hover {
+    cursor:crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%)
+}
+
+
